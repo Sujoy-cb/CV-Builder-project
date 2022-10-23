@@ -1,0 +1,74 @@
+.signupbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signupbody .signupform{
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.signupbody .signupform h2{
+    font-size: 30px;
+    color: #5800FF;
+    font-weight: 700;
+    text-align: center;
+}
+.signupbody .signupform input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D5D5D5;
+    outline: 0;
+    margin-top: 15px;
+}
+.signupbody .signupform .button{
+    margin-top: 15px;
+}
+.signupbody .signupform .button Button{
+    width: 100%;
+    background: #5800FF;
+    border: 1px solid#5800FF;
+    border-radius: 0;
+    font-size: 18px;
+}
+.signupbody .signupform .pass{
+    position: relative;
+}
+.signupbody .signupform .pass .eye{
+    position: absolute;
+    top: 30px;
+    right: 11px;
+    color: #3C4048;
+}
+.signupbody .signupform .link{
+    font-size: 14px;
+    color: #444;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+}
+.signupbody .signupform .link .mainlink{
+    color: #5800FF;
+    text-decoration: none;
+}
+.extralogin{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 65px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #D5D5D5;
+}
+.extralogin span{
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    margin: 8px 10px;
+}
